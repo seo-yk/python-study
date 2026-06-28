@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # time complexity: 최대 O(N)
+        # time complexity: 최대 O(N^2)
         
         # 기준 1개 -> 하나씩 더해보기 -> index는 뒤로만 -> 찾으면 배열 추가 -> return
         result = []
